@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Parama Mukherjee</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <noscript>Browser JavaScript not available.</noscript>
+        <link rel = "stylesheet" href = "style.css">
+        <script src="https://kit.fontawesome.com/f656d729fb.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id = "header">
+            <div class = "container">
+                <nav>
+                    <ul id = "sidemenu">
+                        <li><a href = "#about">About</a></li>
+                        <li><a href = "#services">Services</a></li>
+                        <li><a href = "#portfolio">Portfolio</a></li>
+                        <li><a href = "#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick = "closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" id = "open-menu-button" onclick = "openmenu()"></i>
+                </nav>
+                <div class = "header-text">
+                    <p>Marketing Professional | Nutritionist | Business Analyst</p>
+                    <h1>Hello, I am <span> Parama Mukherjee </span> <br> from Kolkata</h1>
+                </div>
+            </div>
+        </div>
+        <div class = "about" id = "about">
+            <div class = "container">
+                <div class = "row">
+                    <div class = "about-col-1">
+                        <img src = "Images/user.png">
+                    </div>
+                    <div class = "about-col-2">
+                        <h1 class = "sub-title">
+                            About Me
+                        </h1>
+                        <p>
+                            I am a Master of Business Administration student at the Army Institute of Management, Kolkata, with a BSC in Clinical Nutrition from RDVV University, Jabalpur. I specialize in Critical Care Nutrition, Health Insurance and Nutrition Program Management,Operational Efficiency in Healthcare Nutrition Services, Telemedicine and Virtual Nutrition Counseling Operations, and Leadership.
+                        </p>
+                        <div class = "tab-titles">
+                            <p class = "tab-links active-link" onclick = "opentab('skills')">
+                                Technical Skills
+                            </p>
+							<p class = "tab-links" onclick = "opentab('soft-skills')">
+                                Soft Skills
+                            </p>
+                            <p class = "tab-links" onclick = "opentab('experience')">
+                                Experience
+                            </p>
+                            <p class = "tab-links" onclick = "opentab('education')">
+                                Education
+                            </p>
+                        </div>
+                        <div class = "tab-contents active-tab" id = "skills">
+                            <ul>
+                                <li>
+                                    <span>
+                                         Languages and Database Management
+                                    </span>
+                                    <br>
+                                    HTML, SQL
+                                </li>
+                                <li>
+                                    <span>
+                                        CRM Tools
+                                    </span>
+                                    <br>
+                                    Siebal, Salesforce
+                                </li>
+                                <li>
+                                    <span>
+                                       Data Analytics & Monitoring Tools
+                                    </span>
+                                    <br>
+                                   Splunk
+                                </li>
+                                <li>
+                                    <span>
+                                        ECM Systems 
+                                    </span>
+                                    <br>
+                                    Onbase
+                                </li>
+                                <li>
+                                    <span>
+                                        Other Software
+                                    </span>
+                                    <br>
+                                    MS Excel, MS Word, MS Powerpoint
+                                </li>
+                            </ul>
+                        </div>
+						<div class = "tab-contents" id = "soft-skills">
+                            <ul>
+                                <li>
+                                    <span>
+                                        Client Relationship Management
+									</span>
+                                    <br>
+                                    Proven ability to manage client communications and resolve escalated issues effectively to maintain service excellence.
+                                </li>
+                                <li>
+                                    <span>
+                                        Problem - Solving 
+                                    </span>
+                                    <br>
+                                    Ability to identify issues, analyze solutions, and implement strategies to improve efficiency in operations and project management.
+                                </li>
+                                <li>
+                                    <span>
+                                        Collaboration
+                                    </span>
+                                    <br>
+                                    Strong team player with a proven record of working effectively across departments and managing cross - functional projects.
+                                </li>
+                                <li>
+                                    <span>
+                                        Customer - Centric Approach
+                                    </span>
+                                    <br>
+                                    Focused on delivering exceptional client satisfaction through clear communication, timely resolution and solution - driven strategies.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class = "tab-contents" id = "experience">
+                            <ul>
+                                <li>
+                                    <span>
+                                        Operations Analyst - WIPRO
+                                    </span>
+                                    <br>
+                                    Managed client communications, ensured SLA/KPI adherence, and optimized SOPs for enhanced operational efficiency in the DATAVANT Healthcare Project.
+                                </li>
+                                <li>
+                                    <span>
+                                        Dietician Intern - SHEARFIT 
+                                    </span>
+                                    <br>
+                                    Provided personalized diet plans and nutritional counseling to over 50 clients, promoting healthy lifestyle changes and wellness.
+                                </li>
+                                <li>
+                                    <span>
+                                        Program Manager Intern - GO DUTCH
+                                    </span>
+                                    <br>
+                                    Led a team of 60+ members, driving app engagement by 9% through strategic marketing initiatives and content optimization.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class = "tab-contents" id = "education">
+                            <ul>
+                                <li>
+                                    <span>
+                                        Class X
+                                    </span>
+                                    <br>
+                                    CGPA - 7.85 in Army Public School, Bengdubi 
+                                </li>
+                                <li>
+                                    <span>
+                                        Class XII
+                                    </span>
+                                    <br>
+                                    CGPA - 7.43 in KCP Siddhartha Adarsh  Residential Public School, Vijayawada
+                                </li>
+                                <li>
+                                    <span>
+                                        Bachelor of Science in Clinical Nutrition
+                                    </span>
+                                    <br>
+                                    CGPA - 7.47 in Govt. MH College of Home Science & Science for Women, Jabalpur
+                                </li>
+                                <li>
+                                    <span>
+                                        MBA
+                                    </span>
+                                    <br>
+                                    Army Institute of Management, Kolkata
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class = "sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src = "Images/Work 1.png">
+                        <div class="layer">
+                            <h3>Nutrition Analysis Of Local Foods and Patterns</h3>
+                            <p>Analyzed local dietary habits in rural areas, identified nutritional gaps, and recommended improvements through educational materials.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src = "Images/Work 2.png">
+                        <div class="layer">
+                            <h3>Dietary Assesment and Nutritional Counseling for a Specific Population</h3>
+                            <p>Conducted dietary assessments and provided nutritional counseling to improve meal patterns and overall health in a specific population..</p>
+                            
+                        </div>
+                    </div>
+					<div class="work">
+                        <img src = "Images/Work 4.png">
+                        <div class="layer">
+                            <h3>Process Documentation and Knowledge Transfer</h3>
+                            <p>Developed process documentation and knowledge transfer guides, reducing new hire ramp-up time by 20% for seamless onboarding.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class = "sub-title">Contact Me</h1>
+                        <p><a href="mailto:parama28115a@gmail.com"><i class="fa-solid fa-paper-plane"></i></a>parama28115a@gmail.com</p>
+                        <p><i class="fa-solid fa-mobile"></i>+91-9685313993</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/Astraisaria"><i class="fa-brands fa-github"></i></a>
+                            <a href="http://linkedin.com/in/parama2324"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <a href="Images/Parama Mukherjee - CV.pdf" download class = "btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form id="contact-form">
+                            <input type = "text" name = "Name" placeholder = "Your Name" required>
+                            <input type = "email" name = "E-mail" placeholder = "Your Email" required>
+                            <textarea name = "Message" rows = "6" placeholder = "Your Message"></textarea>
+                            <button type = "submit" class = "btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2025 © Parama Mukherjee</p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            var openmenubutton = document.getElementById("open-menu-button");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+                openmenubutton.style.display = "none";
+            }
+
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+                openmenubutton.style.display = "block";
+            }
+        </script>
+
+        <script>
+            const form = document.getElementById('contact-form');
+          
+            form.addEventListener('submit', async function (e) {
+              e.preventDefault(); // Prevent page reload
+          
+              const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                message: document.getElementById('message').value
+              };
+          
+              const googleScriptURL = "https://script.google.com/macros/s/AKfycbwoxgq2ZALFJXVyZ9ViHJaOIvCzE6gmDKicu9M8ajD6Z9e4WWAb9qjYdu3RZLVgNS_aBw/exec";
+          
+              try {
+                const response = await fetch(googleScriptURL, {
+                  method: "POST",
+                  mode: "no-cors",
+                  headers: {
+                    "Content-Type": "application/json"
+                  },
+                  body: JSON.stringify(formData)
+                });
+          
+                alert("Message sent successfully!");
+                form.reset();
+              } catch (error) {
+                alert("Error submitting form. Please try again.");
+                console.error("Error:", error);
+              }
+            });
+          </script>          
+    </body>
+</html>
